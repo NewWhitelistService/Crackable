@@ -1,0 +1,10 @@
+local wlname = loadstring(game:HttpGet("https://pastebin.com/raw/GmLgQVu1"))()
+local getname = wlname[math.random(#wlname)]
+local player = game.Players.LocalPlayer
+local oldname = player.Name
+local olddisplayname = player.DisplayName
+player.Name = getname
+player.DisplayName = getname
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/EA")()
+player.Name = oldname
+player.DisplayName = olddisplayname 
